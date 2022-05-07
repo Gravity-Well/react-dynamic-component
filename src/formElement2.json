@@ -1,0 +1,66 @@
+[
+    {
+        "page_label": "Toptech PTO Request Form",
+        "fields": [
+            {
+                "field_id": "english_name",
+                "field_label": "Name",
+                "field_mandatory": "yes",
+                "field_placeholder": "Enter name",
+                "field_type": "text",
+                "field_value": ""
+            },
+            {
+                "field_id": "email",
+                "field_label": "Email",
+                "field_mandatory": "yes",
+                "field_placeholder": "Enter email",
+                "field_type": "text"
+            },
+            {
+                "field_id": "leaving",
+                "field_label": "Reason for PTO",
+                "field_mandatory": "yes",
+                "field_options": [
+                    {
+                        "option_label": "Vacation"
+                    },
+                    {
+                        "option_label": "Getting married"
+                    }
+                ],
+                "field_type": "select"
+            },
+            {
+                "field_id": "contact",
+                "field_label": "Contact No.",
+                "field_mandatory": "yes",
+                "field_placeholder": "Enter contact no.",
+                "field_type": "text"
+            },
+            {
+                "field_id": "commit",
+                "field_label": "I confirm I want to take PTO.",
+                "field_type": "checkbox",
+                "field_value": "checked"
+            },
+            {
+                "field_id": "weeks)off",
+                "field_label": "Number of weeks off",
+                "field_mandatory": "yes",
+                "field_options": [
+                    {
+                        "option_label": "One week"
+                    },
+                    {
+                        "option_label": "Two weeks"
+                    },
+                    {
+                        "option_label": "Three weeks"
+                    }
+                ],
+                "field_type": "select"
+            }
+        ]
+    }
+]
