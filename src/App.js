@@ -26,13 +26,7 @@ function App() {
        </div>
     </div>
     </Router>
-    
-      // <div className="App container">
-      // <FormCooser/>
-       
-      //   <CurrentScreen formJSON={formJSON2}/>
-       
-      // </div>
+  
    
   );
 }

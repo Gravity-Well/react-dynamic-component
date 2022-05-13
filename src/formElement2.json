@@ -45,7 +45,13 @@
                 "field_value": "checked"
             },
             {
-                "field_id": "weeks)off",
+                "field_id": "deserve",
+                "field_label": "I deserve to take PTO.",
+                "field_type": "checkbox",
+                "field_value": ""
+            },
+            {
+                "field_id": "weeks_off",
                 "field_label": "Number of weeks off",
                 "field_mandatory": "yes",
                 "field_options": [
